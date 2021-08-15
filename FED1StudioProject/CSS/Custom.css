@@ -1,0 +1,31 @@
+﻿/*#F6F4F2 - Light Whitegray
+  #425664 - Darkish Gray
+  #C6AD8F - Dark Sand
+    Complimentary Colors
+  #938fc6 - cornflower blue
+  #c68fc1 - dusty pinkish purple
+  #c1c68f - muted greenish sand
+*/
+header {
+    background-color: #C6AD8F;
+}
+
+main {
+    background-color: #F6F4F2;
+}
+
+h1, h2 {
+    color: #425664;
+}
+
+footer {
+    background-color: #C6AD8F;
+}
+
+.headerProverb {
+    font-style: italic;
+}
+
+#aboutUs {
+    text-decoration: underline;
+}
