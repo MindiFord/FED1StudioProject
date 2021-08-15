@@ -11,8 +11,12 @@ header {
 }
 
 /*Navigation styling*/
+nav {
+    margin: 0 auto;
+}
+
 a {
-    color: teal;
+    color: #938fc6;
     font-weight: bold;
     text-decoration: none;
 }
@@ -61,4 +65,9 @@ footer {
 
 #aboutUs {
     text-decoration: underline;
+}
+
+.contact {
+    text-align: center;
+    margin: auto;
 }
