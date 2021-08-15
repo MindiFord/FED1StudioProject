@@ -10,6 +10,39 @@ header {
     background-color: #C6AD8F;
 }
 
+/*Navigation styling*/
+a {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a /*or nav ul li a (same path - dont' need middle two as long as nav is parent of a)*/ {
+    font-weight: bold;
+    color: #F6F4F2;
+}
+
+nav ul {
+    background-color: #425664;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    display: inline-block; /*treat this element as an inline element to allow other elements to float next to it because all three of these elements will normally take up the entire width of their container*/
+    }
+
+a:hover, a:active, a:focus, .selected {
+    color: #425664;
+    background-color: #F6F4F2;
+}
+
+nav ul li a {
+    padding: .6em 1em /*1 em is normal so 2em is twice normal size, .5em is half normal size*/;
+    display: block; /*padding didn't work until we moved padding from nav ul li to here and added display:block*/
+}
+/*stop nav*/
+
 main {
     background-color: #F6F4F2;
 }
