@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: #C6AD8F;
-    opacity: .65;
+    opacity: .75;
     padding-left: 1em;
     
 }
@@ -105,4 +105,20 @@ footer {
 .contact {
     text-align: center;
     margin: auto;
+}
+
+/*Images*/
+.teamImage {
+    height: 180px;
+    width: 180px;
+}
+
+.chooseImage {
+    width: 350px; 
+    height: 275px;
+}
+
+#aboutImage {
+    height: 200px;
+    width: 200px;
 }
