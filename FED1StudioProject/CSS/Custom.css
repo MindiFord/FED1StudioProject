@@ -11,6 +11,7 @@
 /*Google font: font-family: 'Atkinson Hyperlegible', sans-serif;*/
 html {
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding: 0;
 }
 
 body {
@@ -20,16 +21,30 @@ body {
 
 header {
     background-color: #C6AD8F;
+    opacity: .65;
+    padding-left: 1em;
+    
+}
+
+.headerTitle {
+    margin-bottom: 0;
+}
+
+p.headerProverb {
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 
 /*Navigation styling*/
 nav {
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 main {
     opacity: .6;
+    padding: 1em;
 }
 
 a {
@@ -45,8 +60,10 @@ nav a /*or nav ul li a (same path - dont' need middle two as long as nav is pare
 
 nav ul {
     background-color: #425664;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: .15em solid black;
+    border-bottom: .15em solid black;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 nav ul li {
@@ -74,11 +91,12 @@ h1, h2 {
 
 footer {
     background-color: #C6AD8F;
+    opacity: .65;
+    padding: 1em;
+    border-top: .15em solid black;
+    border-bottom: .15em solid black;
 }
 
-.headerProverb {
-    font-style: italic;
-}
 
 #aboutUs {
     text-decoration: underline;
