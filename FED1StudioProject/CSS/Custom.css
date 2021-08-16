@@ -6,6 +6,13 @@
   #c68fc1 - dusty pinkish purple
   #c1c68f - muted greenish sand
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+/*Google font: font-family: 'Atkinson Hyperlegible', sans-serif;*/
+html {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
 header {
     background-color: #C6AD8F;
 }
