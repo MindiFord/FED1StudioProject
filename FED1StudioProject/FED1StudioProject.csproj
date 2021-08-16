@@ -72,6 +72,9 @@
     <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Images\grayTexturedBackground.jpg" />
+    <Content Include="Images\HorizontalBooksjpg.jpg" />
+    <Content Include="Images\OpenBooks.jpg" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
@@ -124,7 +127,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="JavaScript\" />
   </ItemGroup>
   <PropertyGroup>
