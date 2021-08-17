@@ -14,7 +14,7 @@
             <!--add logo image with alt text-->
             <!--make clickable-->
         </a>
-        <h1>
+        <h1 class="headerTitle">
             Academy of Foreign Language
         </h1>
         <p class="headerProverb">
@@ -43,28 +43,34 @@
         </h1>
         <section>
             <article class="classLeft">
-                <img src="Images/Spanish.jpg" />
-                <h2>
-                    Spanish
-                </h2>
+                <a href="#spanish">
+                    <img src="Images/Spanish.jpg" />
+                    <h2>
+                        Spanish
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
             </article>
             <article class="classCenter">
-                <img src="Images/Mandarin.jpg" />
-                <h2>
-                    Mandarin
-                </h2>
+                <a href="#mandarin">
+                    <img src="Images/Mandarin.jpg" />
+                    <h2>
+                        Mandarin
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
             </article>
             <article class="classRight">
-                <img src="Images/ASL.jpg" />
-                <h2>
-                    Sign Language
-                </h2>
+                <a href="#asl">
+                    <img src="Images/ASL.jpg" />
+                    <h2>
+                        Sign Language
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
@@ -73,28 +79,34 @@
         <div class="clear"></div>
         <section>
             <article class="classLeft">
-                <img src="Images/French.jpg" />
-                <h2>
-                    French
-                </h2>
+                <a href="#french">
+                    <img src="Images/French.jpg" />
+                    <h2>
+                        French
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
             </article>
             <article class="classCenter">
-                <img src="Images/Arabic.jpg" />
-                <h2>
-                    Arabic
-                </h2>
+                <a href="#arabic">
+                    <img src="Images/Arabic.jpg" />
+                    <h2>
+                        Arabic
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
             </article>
             <article class="classRight">
-                <img src="Images/Russian.jpg" />
-                <h2>
-                    Russian
-                </h2>
+                <a href="#russian">
+                    <img src="Images/Russian.jpg" />
+                    <h2>
+                        Russian
+                    </h2>
+                </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices ligula eu libero dictum lobortis nec sit amet arcu. Phasellus aliquet rutrum lacus ut fringilla.
                 </p>
@@ -102,9 +114,204 @@
             <div class="clear"></div>
         </section>
         <section>
-            <h1 id="classesList">[Subject] - Class List</h1>
-            <!--html table that toggles between classes when cards above are selected-->
+            <h1 class="classesList" id="spanish">Spanish - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Spanish 101</td>
+                        <td>Mrs. Moore</td>
+                        <td>Mon,Tue <br />8-11am</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Spanish 102</td>
+                        <td>Mr. Fine</td>
+                        <td>Wed, Thurs <br />8-11am</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Spanish 103</td>
+                        <td>Mr. Fine</td>
+                        <td>Fri, Sat <br />8-11am</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+        <section>
+            <h1 class="classesList" id="mandarin">Mandarin - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mandarin 101</td>
+                        <td>Mr. Glip</td>
+                        <td>Mon,Tue <br />12-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mandarin 102</td>
+                        <td>Mr. Glip</td>
+                        <td>Wed, Thurs <br />12-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mandarin 103</td>
+                        <td>Mr. Glip</td>
+                        <td>Fri, Sat <br />12-3pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="classesList" id="asl">American Sign Language - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ASL 101</td>
+                        <td>Mrs. Brewer</td>
+                        <td>Mon,Tue <br />5-8pm</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ASL 102</td>
+                        <td>Mrs. Brewer</td>
+                        <td>Wed, Thurs <br />5-8pm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ASL 103</td>
+                        <td>Mrs. Brewer</td>
+                        <td>Fri, Sat <br />5-8pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="classesList" id="french">French - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>French 101</td>
+                        <td>Mr. Baguette</td>
+                        <td>Mon,Tue <br />2-5pm</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>French 102</td>
+                        <td>Mrs. Welch</td>
+                        <td>Wed, Thurs <br />8-11am</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>French 103</td>
+                        <td>Mrs. Welch</td>
+                        <td>Fri, Sat <br />8-11am</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="classesList" id="arabic">Arabic - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Arabic 101</td>
+                        <td>Mr. Blank</td>
+                        <td>Mon,Tue <br />6-9pm</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Arabic 102</td>
+                        <td>Mr. Blank</td>
+                        <td>Wed, Thurs <br />6-9pm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Arabic 103</td>
+                        <td>Mr. Blank</td>
+                        <td>Fri, Sat <br />6-9pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="classesList" id="russian">Russian - Class List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Class Name</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Arabic 101</td>
+                        <td>Mrs. Nyet</td>
+                        <td>Mon,Tue <br />12-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Arabic 102</td>
+                        <td>Mrs. Nyet</td>
+                        <td>Wed, Thurs <br />12-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Arabic 103</td>
+                        <td>Mrs. Nyet</td>
+                        <td>Fri, Sat <br />12-3pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
         <div class="clear"></div>
     </main>
     
