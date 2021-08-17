@@ -11,28 +11,32 @@
 /*Google font: font-family: 'Atkinson Hyperlegible', sans-serif;*/
 html {
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    padding: 0;
-}
-
-body {
+    padding: 0;    
     background: url('../Images/grayTexturedBackground.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
+body {
+    width: 90%;
+    margin: auto;
+}
+
 header {
     background-color: #C6AD8F;
-    opacity: .75;
+    opacity: .85;
     padding-left: 1em;
-    
+    margin: auto;
 }
 
 .headerTitle {
     margin-bottom: 0;
+    padding-top: .5em;
 }
 
 p.headerProverb {
     font-style: italic;
     margin-bottom: 0;
+    padding-bottom: 1em;
 }
 
 
@@ -40,11 +44,13 @@ p.headerProverb {
 nav {
     margin-top: 0;
     margin-bottom: 0;
+    margin: auto;
 }
 
 main {
-    opacity: .6;
+    opacity: .85;
     padding: 1em;
+    margin: auto;
 }
 
 a {
@@ -89,17 +95,18 @@ h1, h2 {
     color: #425664;
 }
 
+#chooseHeading {
+    padding-left: 35%;
+    margin-top: 1.5em;
+    font-size: 3em;
+}
+
 footer {
     background-color: #C6AD8F;
-    opacity: .65;
     padding: 1em;
     border-top: .15em solid black;
     border-bottom: .15em solid black;
-}
 
-
-#aboutUs {
-    text-decoration: underline;
 }
 
 .contact {
@@ -111,6 +118,7 @@ footer {
 .teamImage {
     height: 180px;
     width: 180px;
+    float: left;
 }
 
 .chooseImage {
@@ -119,6 +127,103 @@ footer {
 }
 
 #aboutImage {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+    float: left;
+    padding-top: 1em;
+
+}
+
+/*Box Model*/
+#aboutUs {
+    float: right;
+    width: 75%;
+}
+
+#aboutSection {
+    width: 90%;
+    margin: auto;
+    padding-top: 1.5em;
+    margin-bottom: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+#htmlLeftImage {
+    float: left;
+    width: 48%;
+}
+
+#htmlRightText {
+    float: right;
+    width: 48%;
+}
+
+#htmlRightImage {
+    float: right;
+    width: 48%;
+}
+
+#htmlLeftText {
+    float: left;
+    width: 48%;
+}
+
+.teamBio {
+
+}
+
+#teamAside {
+    float: right;
+    width: 25%;
+}
+
+#teamMainColumn {
+    float: left;
+    width: 72%;
+    border-right: .15em solid #425664;
+}
+
+/*classes.html*/
+#classSubjects {
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.classLeft {
+    float: left;
+    width: 25%;
+    margin: 1%;
+    border: .15em solid #425664;
+    padding: 1em;
+    padding-right: 1.5em;
+}
+
+.classCenter {
+    float: left;
+    width: 25%;
+    margin: 1%;
+    border: .15em solid #425664;
+    padding: 1em;
+    margin-left: 3%;
+    padding-right: 1.5em;
+    margin-bottom: 3%
+}
+
+.classRight {
+    float: right;
+    width: 25%;
+    margin: 1%;
+    border: .15em solid #425664;
+    padding: 1em;
+    padding-right: 1.5em;
+}
+
+#classesList {
+    
+    text-align: center;
+    margin: auto;
 }
