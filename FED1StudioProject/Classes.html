@@ -49,18 +49,18 @@
         <section>
             <article class="classLeft">
                 <a href="#zulu">
-                    <img src="Images/Zulu.jpg" class="classImage" alt="Hello in Zulu - Sawubona"/>
+                    <img src="Images/Zulu.jpg" class="classImage" alt="Hello in Zulu - Sawubona" />
                     <h2>
                         Zulu
                     </h2>
                 </a>
                 <p>
-                    Zulu is a Southern Bantu language of the Nguni branch spoken by more than 10 million people mainly in the Zululand area of the Kwazulu/Natal province of South Africa. 
+                    Zulu is a Southern Bantu language of the Nguni branch spoken by more than 10 million people mainly in the Zululand area of the Kwazulu/Natal province of South Africa.
                 </p>
             </article>
             <article class="classCenter">
                 <a href="#swahili">
-                    <img src="Images/Swahili.jpg" class="classImage" alt="Hello in Swahili - Habari"/>
+                    <img src="Images/Swahili.jpg" class="classImage" alt="Hello in Swahili - Habari" />
                     <h2>
                         Swahili
                     </h2>
@@ -71,7 +71,7 @@
             </article>
             <article class="classRight">
                 <a href="#croatian">
-                    <img src="Images/Croatian.jpg" class="classImage" alt="Hello in Croatian - Zdravo"/>
+                    <img src="Images/Croatian.jpg" class="classImage" alt="Hello in Croatian - Zdravo" />
                     <h2>
                         Croatian
                     </h2>
@@ -85,7 +85,7 @@
         <section>
             <article class="classLeft">
                 <a href="#tahitian">
-                    <img src="Images/Tahitian.jpg" class="classImage" alt="Hello in Tahitian - la Orana"/>
+                    <img src="Images/Tahitian.jpg" class="classImage" alt="Hello in Tahitian - la Orana" />
                     <h2>
                         Tahitian
                     </h2>
@@ -96,18 +96,19 @@
             </article>
             <article class="classCenter">
                 <a href="#finnish">
-                    <div id="test"><img src="Images/Finnish.jpg" class="classImage" alt="Hello in Finnish - Hei"/></div>
+                    <div id="test"><img src="Images/Finnish.jpg" class="classImage" alt="Hello in Finnish - Hei" /></div>
                     <h2>
                         Finnish
                     </h2>
                 </a>
-                <p ><!--class="classDesc"-->
+                <p>
+                    <!--class="classDesc"-->
                     Finnish is spoken by about 5 million people, most of whom reside in Finland. There are also notable Finnish-speaking minorities in Sweden, Norway, Russia, Estonia, Brazil, Canada, and the US.
                 </p>
             </article>
             <article class="classRight">
                 <a href="#romanian">
-                    <img src="Images/Romanian.jpg" class="classImage" alt="Hello in Romanian - Buna ziua"/>
+                    <img src="Images/Romanian.jpg" class="classImage" alt="Hello in Romanian - Buna ziua" />
                     <h2>
                         Romanian
                     </h2>
@@ -319,7 +320,7 @@
 
         <div class="clear"></div>
     </main>
-    
+
     <footer>
         <span id="footerP">Mindi Ford - All Rights Reserved - 2021<br /></span>
         <span class="socialMedia">
@@ -332,5 +333,40 @@
             <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
         </span>
     </footer>
+
+    <!-- #region side_nav -->
+    <!-- Admin Button -->
+    <div id="classes-btn" class="button" onclick="openClassesNav()">
+        <span class="vertical-text">CLASSES</span>
+    </div>
+
+    <div id="classes-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassesNav()">&times;</a>
+        <a href="#zulu">Zulu</a>
+        <a href="#swahili">Swahili</a>
+        <a href="#croatian">Croatian</a>
+        <a href="#tahitian">Tahitian</a>
+        <a href="#finnish">Finnish</a> 
+        <a href="#romanian">Romanian</a>
+    </div>
+
+    <!-- Toggle Admin Script -->
+    <script type="text/javascript">
+        function openClassesNav() {
+            document.getElementById('classes-btn').style.display = "none";
+            document.getElementById('classes-nav').style.width = "250px";
+        }
+
+        function closeClassesNav() {
+            document.getElementById('classes-btn').style.display = "block";
+            document.getElementById('classes-nav').style.width = "0";
+        }
+
+    </script>
+    <!-- #endregion -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 minified JavaScript -->
+
 </body>
 </html>
